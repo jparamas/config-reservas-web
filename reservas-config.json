@@ -1,0 +1,27 @@
+{
+  "horasBloqueadasGlobal": ["20:30", "20:45"],
+  "fechasCanceladas": [
+    "2025-03-27", 
+    "2025-03-28", 
+    "2025-03-29"
+  ],
+  "reglasPorFecha": {
+    "2025-06-28": {
+      "horasBloqueadas": ["21:00", "21:15", "21:30"],
+      "limiteComensales": {
+        "comida": 12,
+        "cena": 5
+      }
+    },
+    "2025-07-04": {
+      "cancelado": true
+    },
+    "2025-08-15": {
+      "horasBloqueadas": ["13:00"],
+      "limiteComensales": {
+        "comida": 8,
+        "cena": 8
+      }
+    }
+  }
+}
